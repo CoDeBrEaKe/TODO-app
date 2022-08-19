@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+ 
+  <link rel="stylesheet" href="css/all.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css"/>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <script src="js/all.min.js" defer></script>
+  <script src="js/index.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>TODO</h1>
+  <img src="images/icon-moon.svg"  class="moon"alt="moon">
+  <img src="images/icon-sun.svg"class="sun" alt="sun">
+</header>
+<main>
+  <div class="new">
+    <diV class="complete"></diV>
+    <input type="text" placeholder="Create a new todo...">
+    <span class="error">You already have this task</span>
+  </div>
+  <div class="tasks">
+    
+    <div class="details">
+      <p class="left"><span>0</span> items left</p> 
+      <p class="clear">Clear Completed</p> 
+    </div>
+  </div>
+  <div class="category">
+    <span class="all">All</span>
+    <span class="active">Active</span>
+    <span class="completed">Completed</span>
+  </div>
+</main>
+</body>
+</html>
