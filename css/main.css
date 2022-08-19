@@ -12,11 +12,12 @@
 body{
     background-color: var(--body-color);
     background-image: var(--main-background);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: 0 0;
     transition: all 0.3s;
     width: 60%;
-    margin:auto;
+    margin:auto; 
     font-family: 'Josefin Sans', sans-serif;
 }
 header{

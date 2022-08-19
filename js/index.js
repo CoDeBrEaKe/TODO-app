@@ -1,4 +1,5 @@
 // selecting the icons to activate dark mood
+
 let stars = document.querySelectorAll("header img"); 
 let backgroud = document.documentElement.style.backgroundImage;
 let newTodo = document.querySelector("main .new input");
@@ -25,7 +26,9 @@ category.forEach(cat=>{
 })
 
 localStorage.getItem("mode") ? activateMode(localStorage.getItem("mode")):localStorage.setItem("mode" , "dark");
-// localStorage.setItem('list' , '[]')
+if (!localStorage.getItem('list'))
+localStorage.setItem('list' , '[]')
+
 if (localStorage.getItem('list') != "[]") 
 {
     let items = JSON.parse(localStorage.getItem('list'));
