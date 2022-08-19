@@ -101,7 +101,7 @@ function addTask(object){
         let completeDiv = document.createElement("div");
         completeDiv.className="complete";
         let image = document.createElement("img");
-        image.src="../images/icon-check.svg";
+        image.src="images/icon-check.svg";
         image.alt="check";
         completeDiv.appendChild(image);
         task.appendChild(completeDiv);
@@ -109,7 +109,7 @@ function addTask(object){
         span.innerHTML = object.text;
         span.className= "text";
         let cross = document.createElement("img");
-        cross.src="../images/icon-cross.svg";
+        cross.src="images/icon-cross.svg";
         cross.alt="cross";
         cross.className="cross";
         completeDiv.parentNode.classList.add("all");
