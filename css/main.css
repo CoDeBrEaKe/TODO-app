@@ -159,3 +159,8 @@ main input {
     right: 20px;
     transition: all 0.4s;
 }
+@media (max-width:500px){
+    body{
+    width:80%;
+    }
+}
